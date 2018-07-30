@@ -1,0 +1,31 @@
+<html>
+    <head>
+       
+        <link href="Vishali_Cart.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="left">
+            <div id="img">
+                <img src="logo.png" width="150px" height="150px"/>
+            </div>
+            <div id="search">
+                    <input type="search" id="search1" placeholder="Search here" onkeyup="Search()"/> 
+            </div>
+            <div id="whole">
+              <div id="display"></div>
+              <div id="task"> 
+               <button id="reset" onclick="Reset()">Reset</button>
+               <button id="add" onclick="add()">Add</button>
+               </div>
+            </div>
+
+
+
+        </div>
+        <div id="right">
+            <table id="result"></table>
+            <a href="bill.html"> <button id ="checkout" onclick="checkout()" > Check Out</button></a>
+        </div>
+    </body>
+    <script src="cart.js"></script>
+</html>

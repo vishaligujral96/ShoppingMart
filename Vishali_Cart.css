@@ -1,0 +1,155 @@
+body{
+    background-image: url("background.jpg");
+    width:100%;
+    height:100%;
+}
+#left{
+    width:75%;
+    height:1000px;
+    position: absolute;
+    border: 2px solid green;
+}
+#right{
+    width:25%;
+    height:1000px;
+    position: absolute;
+    border: 2px solid green;
+    margin-left: 75%;
+}
+#task{
+    width:20%;
+    height:40px;
+    
+    margin-left:500px;
+    margin-top:900px; 
+    padding:20px;
+   border:2px solid green;
+
+}
+#reset{
+    
+   
+    left:600px;
+    width:40%;
+    height:40px;
+    
+    border: solid 2px green;
+    border-radius: 5px;
+    background-color: rgb(113, 179, 113);
+    
+    top:900px;
+}
+
+#add{
+    width:40%;
+    height:40px;
+    background-color: rgb(113, 179, 113);
+    margin-left: 100px;
+    border: solid 2px green;
+    border-radius: 5px;
+    margin-top:-40px;  
+    
+}
+
+
+#img{
+   width:150px;
+   height:150px;
+   border: 2px solid green;
+   position:absolute;
+
+
+
+}
+#search{
+    width:20%;
+    height:100px;
+    
+    margin-left:400px;
+    margin-top:30px; 
+    position:absolute;
+
+}
+#search1{
+    width:80%;
+    height:40px;
+    background-color: rgb(113, 179, 113);
+    border-radius: 8px;
+    left:30px;
+    
+    position: absolute;
+    top:50px; 
+}
+
+#display{
+    width:75%;
+    height:500px;
+    position: absolute;
+    
+    
+    top:210px;
+    left:100px;
+}
+#whole{
+ 
+    width:90%;
+    height:750px;
+    margin-top:150px;
+    margin-left: 20px;
+}
+#result{
+    margin-left: 10%;
+	margin-top:100px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border:2px solid black;
+    width: 50%;
+    position: absolute;
+    border-collapse: collapse;
+
+}
+#checkout{
+    width:30%;
+    height:40px;
+    margin-left: 220px;
+    margin-top:690px;
+    background-color: rgb(113, 179, 113);
+    border-radius: 8px;
+    position: absolute;
+}
+#content{
+    margin-top: 200px;
+    position: absolute;
+}
+#total{
+    margin-top: 345px;
+    margin-left: 1090px;
+    position: absolute;
+   
+}
+#cust1 {
+    border-collapse: collapse;
+    width: 400%;
+
+}
+#cust1 th, #cust1 td{
+    text-align: left;
+    padding: 8px;
+}
+#cust1 th{
+    
+        background-color: #4CAF50;
+        color: white;
+    
+}
+#cust1 tr:nth-child(even),{background-color: #f2f2f2;}
+#result  tr:nth-child(even),{background-color: #f2f2f2;}
+#result th{
+    
+    background-color: #4CAF50;
+    color: white;
+
+}
+#result th, #result td{
+    text-align: left;
+    padding: 8px;
+}
